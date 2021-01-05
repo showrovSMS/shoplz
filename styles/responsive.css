@@ -416,10 +416,10 @@
     .contact_container {
         position: relative;
         top: auto;
-        -webkit-transform: transform: none;
-        -moz-transform: transform: none;
-        -ms-transform: transform: none;
-        -o-transform: transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
         transform: none;
         left: auto;
         width: 100%;
@@ -717,10 +717,10 @@
     .contact_container {
         position: relative;
         top: auto;
-        -webkit-transform: transform: none;
-        -moz-transform: transform: none;
-        -ms-transform: transform: none;
-        -o-transform: transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
         transform: none;
         left: auto;
         width: 100%;
