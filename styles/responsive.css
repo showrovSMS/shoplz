@@ -861,6 +861,9 @@
     .sms-serach .search__icon {
         margin-left: -30px;
     }
+    form.authorization__form.authorization__form--shadow {
+        margin-bottom: 60px;
+    }
 }
 
 @media only screen and (max-width: 479px) {

@@ -3,61 +3,6 @@
 /* CSS Document */
 
 
-/******************************
-
-COLOR PALETTE
-
-#FFFFFF - BACKGROUND LIGHT
-#F7F7F7 - BACKGROUND "DARK"
-#313131 - TEXT COLOR DARK
-#717a85 - PARAGRAPH COLOR
-#000000 - BLUE
-#db5246 - RED
-
-GRADIENTS
-
-#000000 - #0dd1ec - HOME PANEL
-
-
-[Table of Contents]
-
-1. Fonts
-2. Body and some general stuff
-3. Home
-	3.1 Slider
-	3.2 Slider Nav
-	3.3 Header
-	3.4 Logo
-	3.5 Home Content
-	3.6 Slider Backgrounds
-	3.7 Home social
-	3.8 Home Navigation
-	3.9 Hamburger menu
-	3.10 Fullscreen Menu
-4. Section Title
-5. About
-6. Services
-7. About Extra
-8. Featured Projects
-	8.1 Featured Projects Backgrounds
-9. Gallery
-10. Features
-11. Purchase
-12. Steps
-13. Video
-14. Call to Action 1
-15. Pricing
-	15.1 Pricing Timer
-16. From Blog
-17. Google map
-18. Contact
-19. Footer
-20. Newsletter
-
-
-******************************/
-
-
 /***********
 1. Fonts
 ***********/
@@ -178,13 +123,6 @@ h6 {
     -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
 }
-
-h1::selection,
-h2::selection,
-h3::selection,
-h4::selection,
-h5::selection,
-h6::selection {}
 
 section {
     display: block;
@@ -4246,4 +4184,38 @@ form.authorization__form.authorization__form--shadow .input-wrp input.textfield 
 form.authorization__form.authorization__form--shadow .input-wrp input.textfield:focus {
     background-color: #fff;
     border: 1px solid #000000;
+}
+
+form.authorization__form.authorization__form--shadow a {
+    color: #000;
+    text-decoration: underline !important;
+    font-weight: 600;
+}
+
+form.authorization__form.authorization__form--shadow a::after {
+    display: none;
+}
+
+form.authorization__form.authorization__form--shadow button.custom-btn {
+    padding: 10px 30px;
+    color: #000;
+    font-weight: 500;
+    background: #fae053;
+    margin: 20px 0;
+    border-radius: 10px;
+    transition: all 0.5s;
+    border: none;
+    width: 100%;
+}
+
+form.authorization__form.authorization__form--shadow button.custom-btn:hover {
+    transform: translateY(-10px);
+}
+
+.sms-sign-nasa {
+    max-width: 600px !important;
+}
+
+.sms-sign-nasa label.checkbox.mt-0 {
+    margin-left: 27px;
 }
