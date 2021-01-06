@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
 /* CSS Document */
 
@@ -361,7 +362,7 @@
     }
     #call_to_action_1 h4 span {
         display: inline;
-        font-family: 'Playfair Display', serif;
+        font-family: 'DM Sans', sans-serif;
         font-style: italic;
     }
     #call_to_action_1 p {
@@ -864,6 +865,22 @@
     form.authorization__form.authorization__form--shadow {
         margin-bottom: 60px;
     }
+    a.paper {
+        padding: 15px;
+    }
+    .collection {
+        padding-left: 0;
+    }
+    .collection__photo {
+        position: relative;
+    }
+    .avatar__photo.avatars__images.o__ltr {
+        margin-top: 5px;
+    }
+    .collection_meta h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
 }
 
 @media only screen and (max-width: 479px) {
@@ -898,10 +915,9 @@
         width: 70px;
     }
     .fs_nav ul li a {
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 26px;
-        letter-spacing: 2px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 40px;
     }
     .fs_menu_social {
         top: 72px;
