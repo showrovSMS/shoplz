@@ -831,6 +831,13 @@
     .step_image_right .step_image_container {
         left: 15px;
     }
+    .pricing-table td {
+        width: inherit;
+    }
+    .pricing-table tr td:first-child {
+        border: none;
+        display: table-cell;
+    }
     .calypso-plan-table__cover-col {
         position: sticky;
         width: 175px;

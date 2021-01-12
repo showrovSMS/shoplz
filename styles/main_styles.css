@@ -716,6 +716,8 @@ section {
 .how-app-work-section {
     padding: 135px 0px;
     background: #fff;
+    background-image: url(../images/about-bg-shape.svg);
+    background-size: cover;
 }
 
 .left-sms,
@@ -891,6 +893,22 @@ section.app-secreenshots .section_title {
 .swiper-wrapper {
     height: 630px;
     width: 320px;
+}
+
+.pricing-table {
+    margin-top: 60px;
+}
+
+.sms-pr0cd0v {
+    display: block;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+
+.sms-pr0cd0v li {
+    list-style: disc;
+    margin-left: 35px;
+    line-height: 32px;
 }
 
 .row.appScreenshotCarousel-container.swiper-container-horizontal.swiper-container-3d.swiper-container-coverflow {
@@ -1992,6 +2010,8 @@ li.sms-freestarted:hover a {
     text-align: center;
     font-weight: 700;
     margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 35px;
 }
 
 .sms-feat-con-box p {
@@ -2743,7 +2763,7 @@ Slider Content
 #purchase {
     padding-top: 80px;
     padding-bottom: 80px;
-    background: url(../images/world_map.png) no-repeat center center #fae053;
+    background: url(../images/world_map.png) no-repeat center center #f5f5f5;
     width: 100%;
     display: block;
     background-size: cover;
@@ -3284,7 +3304,8 @@ Slider Content
     font-weight: 700;
 }
 
-#pricing .packages a.button {
+#pricing .packages a.button,
+#purchase a.button {
     padding: 10px 30px;
     color: #000;
     font-weight: 500;
@@ -3294,7 +3315,13 @@ Slider Content
     transition: all 0.5s;
 }
 
-#pricing .packages a.button:hover {
+.sms-strt-sell {
+    display: inline-block;
+    margin: 30px 0 0;
+}
+
+#pricing .packages a.button:hover,
+#purchase a.button:hover {
     transform: translateY(-10px);
 }
 
@@ -3697,7 +3724,7 @@ span.contact-text.gmail {
 
 .newsletter_submit_btn {
     position: absolute;
-    top: 42%;
+    top: 37%;
     right: 0;
     cursor: pointer;
     padding: 20px;
@@ -3710,16 +3737,18 @@ span.contact-text.gmail {
     line-height: 33px;
 }
 
+
+/* 
 .col-md-5.ft-sms-newsltr {
-    background: #ffffff3d;
     padding: 30px 20px;
     border-radius: 10px;
-}
+} */
 
 .col-md-5.ft-sms-newsltr h2 {
     color: #fff;
     margin-bottom: 20px;
     font-size: 30px;
+    margin-top: 0px;
 }
 
 .newsletter_submit_btn:hover {
@@ -4051,8 +4080,13 @@ section#price-compare {
 }
 
 .pricing-table tr td {
-    padding-left: 1%;
+    padding: 1%;
     text-align: center;
+}
+
+.pricing-table td {
+    width: 18%;
+    border: 1px solid #d7d7d7;
 }
 
 .pricing-table th {
