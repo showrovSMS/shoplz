@@ -177,12 +177,6 @@
     .logo_container {
         left: 30px;
     }
-    .fs_nav ul li a {
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 36px;
-        letter-spacing: 2px;
-    }
     #contact {
         padding-top: 0px;
         padding-bottom: 80px;
@@ -278,12 +272,6 @@
     }
     .fs_menu_left.active {
         width: 70px;
-    }
-    .fs_nav ul li a {
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 26px;
-        letter-spacing: 2px;
     }
     .fs_menu_social {
         top: 72px;

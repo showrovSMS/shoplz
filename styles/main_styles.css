@@ -867,13 +867,13 @@ section {
 
 @media (max-width: 767.98px) {
     .typewriter {
-        font-size: 35px !important;
+        font-size: 25px;
     }
 }
 
 @media (min-width: 768px) {
     .typewriter {
-        font-size: 50px;
+        font-size: 32px;
     }
 }
 
@@ -1055,9 +1055,13 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .home_content p {
-    width: 80%;
     margin-top: 30px;
     padding-left: 5px;
+}
+
+.sms-typing p.typewriter {
+    text-transform: uppercase;
+    font-size: 40px;
 }
 
 .button_a {
@@ -4051,7 +4055,7 @@ table.sms-table-cus .__price {
 
 table.sms-table-cus a.custom-btn {
     color: #000;
-    background: yellow;
+    background: #fae053;
     padding: 15px 30px;
     border-radius: 10px;
     box-shadow: 1px 1px 2px #000;
@@ -4106,25 +4110,22 @@ section#who-pdf {
     padding: 100px 0;
 }
 
-.who-sms {
-    padding: 0 12%;
-    text-align: center;
+.who-sms h3 {
+    margin: 25px 0;
+    font-size: 22px;
 }
 
 .who-sms p {
-    font-size: 20px;
-    font-weight: 600;
+    margin: 20px 0;
 }
 
-.who-sms p a {
-    background: transparent;
-    text-decoration: underline !important;
-    color: red;
-    font-style: italic;
+.who-sms ul li {
+    list-style: disc;
+    margin: 15px 0;
 }
 
-.who-sms p a:after {
-    display: none;
+.who-sms ul {
+    margin-left: 3%;
 }
 
 
